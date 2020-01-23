@@ -1,10 +1,10 @@
-containair {
+.container {
     widows: 100%;
     height: auto;
 }
-body {
+/* body {
     background: #cfcfcf;
-}
+} */
 
 .navbar {
     width: 100%;
@@ -29,7 +29,7 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: silver;
+    color: #4aaaa5;
     font-family: sans-serif;
     color: 000;
     }    
@@ -42,9 +42,10 @@ h2 {
     
 .feature-box.a {
     text-align: left;
+   box-shadow: 0px 5px 15px 0px;  
     
-    width: 960px;
-    height: 400px;
+    width: 660px;
+    height: 450px;
     margin: 30px 60px 60px 250px;
     padding: 20px;
     background: rgb(255, 255, 255);
@@ -64,9 +65,9 @@ h1 {
     float: left;
 }
 #horizontal-line {
-    width: 945px;
+    width: 635px;
     height: 2px;
-    background-color: silver;
+    background-color: #4aaaa5;
     position: absolute;
     margin: 60px 5px;
 }
@@ -80,24 +81,24 @@ h1 {
     
 footer {
     text-align: center;
-    color: silver;
+    color: #4aaaa5;
     width: 100%;
     position: absolute;
     left: 0px;
     bottom: 0px;
     margin: 0px;
     padding: 10px;
-    height: 40px;
-    background: #666666;
+    height: 70px;
+    background: rgb(43, 42, 36);
 }
 .field {
-    width: 930px;
+    width: 630px;
     padding: 0px;
     margin: 0px;
 }
 textarea {
-    width: 930px;
-    height: 100px;
+    width: 630px;
+    height: 150px;
 }
     
      

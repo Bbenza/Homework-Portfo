@@ -1,72 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HW2 Portfolio Contact</title>
-    <link rel="stylesheet" type="text/css" href="contact.css" />
+.container {
+    widows: 100%;
+    height: auto;
+}
+/* body {
+    background: #cfcfcf;
+} */
 
-    <style>
-        html{
-          background: url('fly.jpg') no-repeat center center fixed;
-         -webkit-background-size:cover;
-         -moz-background-size:cover;
-         -o-background-size: cover;
-          background-size: cover;
-          opacity: 0.8;
-            } 
-    </style> 
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    margin-top: -16px;
+}
+.navbar ul {
+    margin-left: 994px;
 
-<body>
-   
+}
+.navbar ul li {
+    display: inline;
+    line-height: 60px;
+    padding: 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: 000;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #4aaaa5;
+    font-family: sans-serif;
+    color: 000;
+    }    
+h2 { 
+    margin: 10px -690px 30px 9px;
+    color: #4aaaa5;
+    position: absolute;
+}
+
     
-        <div class="container">
-            
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="./portfolio.html">About</a></li>
-                        <li><a href="./gallery.html">Portfolio</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+.feature-box.a {
+    text-align: left;
+   box-shadow: 0px 5px 15px 0px;  
+    
+    width: 960px;
+    height: 450px;
+    margin: 30px 60px 60px 250px;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    border: 1px;
+   
+    }
+   
+
+h1 {
+    color: white;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    background: #4aaaa5;
+    margin: -110px 0px 0px -20px;
+    padding: 10px;
+    float: left;
+}
+#horizontal-line {
+    width: 940px;
+    height: 2px;
+    background-color: #4aaaa5;
+    position: absolute;
+    margin: 60px 5px;
+}
+.btn {
+    width: 80px;
+    height: 30px;
+    margin: 25px 0px;
+    background: #4aaaa5;
+    color: silver;
+}
+    
+footer {
+    text-align: center;
+    color: #4aaaa5;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px;
+    padding: 10px;
+    height: 70px;
+    background: rgb(43, 42, 36);
+}
+.field {
+    width: 940px;
+    padding: 0px;
+    margin: 0px;
+}
+textarea {
+    width: 940px;
+    height: 150px;
+}
+    
+     
 
 
-        
-                        
-                    </ul>
-                </nav>
-        </div>
-        <div class="feature-box a"><div>
-                <div><h1>Bob Benza</h1></div>
-              
-
-                <h2>Contact</h2>
-                <div id="horizontal-line"></id>
 
 
-                <p>Name</p>
-                <input type="text" class="field" placeholder="Bob Benza">
-                <p>Email</p>
-                <input type="email" class="field" placeholder="bbenza366@gmail.com">
-                 
-                <p>message</p>
-                <textarea class="field a" placeholder="Message"></textarea>
-
-
-               
-            <button class="btn">Submit</button>
-
-
-
-
-        </div>
-               
-        
-
-       
-         
-<footer>copyright©</footer>
-       
-        
-
-</body>
-</html>
